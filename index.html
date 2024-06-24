@@ -25,30 +25,37 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
   </head>
-  <body >
+  <body>
     <section class="component d-flex flex-column m-3 my-5 bg-white">
       <img src="./images/drawers.jpg" alt="drawer" />
-      <article>
-        <h2>
-          Shift the overall look and feel by adding these wondesrful toches to
-          furniture in your home
-        </h2>
-        <p>
-          Ever been in a room and felt like something was missing ? Perhaps it
-          felt slightly bare and uninviting. I've got some simple tips to help
-          you make any room feel complete.
-        </p>
-      </article>
-      <div>
-        <img src="./images/avatar-michelle.jpg" alt="avatar" />
+
+      <div class="d-flex flex-column justify-">
+        <article class="info">
+          <header>
+            <h2 class="title">
+              Shift the overall look and feel by adding these wondesrful toches
+              to furniture in your home
+            </h2>
+          </header>
+          <p class="description">
+            Ever been in a room and felt like something was missing ? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </article>
+        <div class="d-flex">
+          <img class="avatar" src="./images/avatar-michelle.jpg" alt="avatar" />
+          <div class="personal-info">
+            <h3 class="name">Michelle Appleton</h3>
+            <p class="date">28 Jun 2024</p>
+          </div>
+          <div class="share-button-container d-flex ms-auto">
+            <button class="share-button rounded-circle mx-2 mt-2" type="button">
+              <img src="./images/icon-share.svg" alt="share" />
+            </button>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2>Michelle Appleton</h2>
-        <p>28 Jun 2024</p>
-      </div>
-      <button type="button">
-        <img src="./images/icon-share.svg" alt="share" />
-      </button>
     </section>
   </body>
 </html>
