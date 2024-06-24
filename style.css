@@ -1,4 +1,4 @@
-@import url("normalize.css");
+@import url('normalize.css');
 
 /* Colors */
 :root {
@@ -6,9 +6,60 @@
   --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
   --Grayish-Blue: hsl(212, 23%, 69%);
   --Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+  /* font family */
+  --font-family: 'Manrope', sans-serif;
 }
 
 /* mobile design  */
-body{
-    background-color: var(--Light-Grayish-Blue);
+body {
+  font-family: var(--font-family);
+  background-color: var(--Light-Grayish-Blue);
+}
+
+head,
+.info {
+  padding: 2rem 1rem 1rem 2rem;
+}
+
+.title {
+  color: var(--Very-Desaturated-Dark-Blue);
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.description {
+  color: var(--Desaturated-Dark-Blue);
+  font-size: 1rem;
+}
+
+.personal-info {
+  margin-right: 6rem;
+}
+.name {
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.date {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--Desaturated-Dark-Blue);
+}
+.avatar {
+  border-radius: 100%;
+  max-width: 3rem;
+  margin: 0 1rem 2rem 2rem;
+}
+
+/* .share-button-container {
+  background-color: brown;
+} */
+.share-button {
+  max-height: 2rem;
+  border: none;
+  cursor: pointer;
 }
