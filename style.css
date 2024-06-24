@@ -58,7 +58,7 @@ body {
 } */
 .share-button {
   max-height: 2rem;
-  max-width: 2rem;
+  /* max-width: 2rem; */
   border: none;
   cursor: pointer;
   margin-right: 2rem;
