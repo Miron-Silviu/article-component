@@ -55,11 +55,13 @@ head,
   margin: 0 1rem 2rem 2rem;
 }
 
-/* .share-button-container {
+.share-button-container {
   background-color: brown;
-} */
+  overflow: auto;
+}
 .share-button {
   max-height: 2rem;
   border: none;
   cursor: pointer;
+  margin-right: 7rem;
 }
