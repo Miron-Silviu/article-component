@@ -60,6 +60,13 @@ body {
 .share-button {
   max-height: 2rem;
   max-width: 2rem;
+
   border: none;
   cursor: pointer;
+}
+
+.share-img {
+  max-width: 2rem;
+  max-height: 2rem;
+  object-fit: contain;
 }
