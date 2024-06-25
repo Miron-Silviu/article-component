@@ -59,6 +59,9 @@ body {
   margin-right: 1rem;
 }
 .share-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   max-height: 2rem;
   max-width: 2rem;
   border: none;
