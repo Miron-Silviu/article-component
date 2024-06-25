@@ -18,20 +18,20 @@ body {
 }
 
 .info {
-  padding: 2rem 1rem 1rem 2rem;
+  padding: 2rem 1rem 1rem 1rem;
 }
 
 .title {
   color: var(--Very-Desaturated-Dark-Blue);
   font-weight: 700;
   line-height: 1.4;
-  font-size: 1.3rem;
-  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 
 .description {
   color: var(--Desaturated-Dark-Blue);
-  font-size: 1rem;
+  font-size: 0.82rem;
 }
 
 .personal-info {
@@ -39,23 +39,24 @@ body {
 }
 .name {
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin-top: 0.5rem;
 }
 .date {
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   font-weight: 400;
-  line-height: 1;
+  line-height: 0.5;
   color: var(--Desaturated-Dark-Blue);
 }
 .avatar {
   border-radius: 100%;
-  max-width: 3rem;
-  margin: 0 1rem 2rem 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+  margin: 0 1rem 2rem 1rem;
 }
 
 .share-button-container {
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 .share-button {
   max-height: 2rem;
