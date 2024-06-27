@@ -86,3 +86,8 @@ body {
 .share-button-container {
   margin-left: auto;
 }
+.share-button {
+  border-radius: 100%;
+  border: none;
+  min-height: 4vh;
+}
