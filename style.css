@@ -94,6 +94,9 @@ body {
 
 /* Share-menu */
 .share-menu {
+  position: absolute;
+  bottom: 14rem;
+  min-width: 9vw;
   display: flex;
   background-color: var(--Very-Dark-Grayish-Blue);
 }
