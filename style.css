@@ -91,3 +91,9 @@ body {
   border: none;
   min-height: 4vh;
 }
+
+/* Share-menu */
+.share-menu {
+  display: flex;
+  background-color: var(--Very-Dark-Grayish-Blue);
+}
