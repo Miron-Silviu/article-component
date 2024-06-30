@@ -89,7 +89,9 @@ body {
   border: none;
   min-height: 4vh;
 }
-
+.share-img {
+  max-width: 1.2rem;
+}
 /* Share-menu */
 .footer-share-button-container {
   margin-left: auto;
@@ -114,4 +116,5 @@ body {
 
 .footer-share-img {
   color: white;
+  max-width: 1.2rem;
 }
