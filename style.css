@@ -125,5 +125,12 @@ body {
   }
   .component {
     min-width: 100vw;
+    display: flex;
   }
+  .main-img {
+    max-width: 50%;
+  }
+}
+.main-container {
+  max-width: 40%;
 }
