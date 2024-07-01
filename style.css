@@ -118,3 +118,12 @@ body {
   color: white;
   max-width: 1.2rem;
 }
+
+@media screen and (min-width: 700px) {
+  body {
+    display: flex;
+  }
+  .component {
+    min-width: 100vw;
+  }
+}
