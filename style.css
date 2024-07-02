@@ -134,3 +134,7 @@ body {
 .main-container {
   max-width: 40%;
 }
+
+.main-img-container {
+  display: flex;
+}
