@@ -130,11 +130,15 @@ body {
   .main-img {
     max-width: 50%;
   }
-}
-.main-container {
-  max-width: 40%;
-}
+  .main-container {
+    max-width: 40%;
+  }
 
-.main-img-container {
-  display: flex;
+  .main-img-container {
+    display: flex;
+  }
+
+  .footer-share-menu {
+    position: absolute;
+  }
 }
