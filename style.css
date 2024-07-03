@@ -142,5 +142,7 @@ body {
 
   .footer-share-menu {
     position: absolute;
+    right: 400px;
+    bottom: 400px;
   }
 }
