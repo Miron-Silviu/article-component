@@ -119,13 +119,15 @@ body {
   max-width: 1.2rem;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   body {
     display: flex;
+    align-items: center;
+    min-height: 100vh;
   }
   .component {
-    min-width: 100vw;
     display: flex;
+    max-width: 60vw;
   }
   .main-img {
     max-width: 50%;
