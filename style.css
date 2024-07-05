@@ -157,6 +157,13 @@ body {
   .footer-share-button-container {
     visibility: hidden;
   }
+  .footer-share-menu ::before {
+    content: ' ';
+    background: #000;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1700px) {
