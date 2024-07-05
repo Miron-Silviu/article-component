@@ -24,17 +24,18 @@ body {
 }
 
 .component {
-  margin: auto;
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  max-width: 400px;
-  min-height: auto;
+  max-width: 300px;
+  min-height: 400px;
   margin: 4rem 1rem;
-  overflow: hidden;
   border-radius: 10px;
 }
-
+.main-img {
+  border-radius: 10px 10px 0 0;
+  max-width: 300px;
+}
 /* Main container */
 .main-container {
   padding: 2rem;
@@ -106,6 +107,7 @@ body {
   min-width: 9vw;
   display: flex;
   background-color: var(--Very-Dark-Grayish-Blue);
+  border-radius: 0 0 10px 10px;
 }
 
 .footer-title {
@@ -145,8 +147,8 @@ body {
 
   .footer-share-menu {
     gap: 1rem;
-    position: absolute;
-    right: 400px;
+    position: fixed;
+    right: 300px;
     bottom: 450px;
     border-radius: 10px;
     max-height: 2.2vh;
@@ -161,7 +163,7 @@ body {
     width: 15px;
     height: 15px;
     position: absolute;
-    top: 2.5rem;
+    top: 2.6rem;
     left: 6.8rem;
     transform: rotate(50deg);
   }
@@ -169,7 +171,7 @@ body {
 
 @media screen and (min-width: 1300px) and (max-width: 1700px) {
   .footer-share-menu {
-    left: 300px;
+    float: right;
     bottom: 400px;
   }
 }
