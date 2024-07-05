@@ -159,10 +159,13 @@ body {
   }
   .footer-share-menu ::before {
     content: ' ';
-    background: #000;
-    width: 30px;
-    height: 30px;
+    background: var(--Very-Dark-Grayish-Blue);
+    width: 15px;
+    height: 15px;
     position: absolute;
+    top: 3rem;
+    left: 3.5rem;
+    transform: rotate(50deg);
   }
 }
 
