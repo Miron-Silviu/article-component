@@ -166,16 +166,6 @@ body {
   .footer-share-button-container {
     visibility: hidden;
   }
-  .footer-share-menu ::before {
-    content: ' ';
-    background: var(--Very-Dark-Grayish-Blue);
-    width: 0.9rem;
-    height: 0.9rem;
-    position: absolute;
-    top: 2.6rem;
-    left: 6.8rem;
-    transform: rotate(50deg);
-  }
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1700px) {
