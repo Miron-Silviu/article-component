@@ -36,7 +36,7 @@ I should metioned that the project is build with mobile first in mind and is ful
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
+- [Styled Components](https://styled-components.com/) 
 
 ## What I learned
 
