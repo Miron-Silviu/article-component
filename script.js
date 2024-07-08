@@ -2,9 +2,11 @@
 
 // Storing classes inside variables .
 
-
 const shareBtn = document.querySelector('.share-button');
-const footerInfo = document.querySelector('.footer-share-menu');
-const userInfo = document.querySelector('.info-container');
 
+// Create event for shareButton
+
+shareBtn.addEventListener('click', function(){
+    const footerClass = document.querySelector('.footer-share-menu').style.visibility = 'visible';
+})
 
