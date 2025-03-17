@@ -2,13 +2,17 @@
 
 ## Table of contents
 
+- [Links](#links)
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
-- [Links](#links)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Author](#author)
+
+  ## Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/article-component/)
+
 
 ### The challenge
 
@@ -16,10 +20,6 @@ Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - See the social media share links when they click the share icon
-
-# Links
-
-[VIEW DEMO](https://miron-silviu.github.io/article-component/)
 
 ## Screenshot
 
